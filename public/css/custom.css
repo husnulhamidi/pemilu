@@ -1,0 +1,133 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.progress {
+  height: 5px;
+}
+
+.control-label {
+  text-align: left !important;
+  padding-bottom: 7px;
+}
+
+.form-horizontal {
+  padding: 25px 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+select.form-control:focus {
+  border-color: #e9ab66;
+  box-shadow: none;
+}
+
+.block-help {
+  font-weight: 300;
+}
+
+.divider {
+  position: absolute;
+  height: 2px;
+  border: 1px solid #eee;
+  width: 100%;
+  top: 10px;
+  z-index: -5;
+}
+
+.ex-account {
+  position: relative;
+}
+
+.ex-account p {
+  background-color: rgba(255, 255, 255, 0.41);
+}
+
+select:hover {
+  color: #444645;
+  background: #ddd;
+}
+
+.fa-file-text {
+  color: #edda39;
+}
+
+.mar-top-bot-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box-br {
+  border-radius: 10px;
+}
+.box-insaldo{
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 15px;
+}
+.border-grafik{
+  border:#0aa0b8 2px solid;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  
+}
+.bg-img-saldoawal {
+  border-radius: 10px;
+  background:url('../media/logos/sb_saldoawal.png') no-repeat center center;
+  background-size: 100%;
+}
+.bg-img-saldomasuk {
+  border-radius: 10px;
+  background:url('../media/logos/sb_saldomasuk.png') no-repeat top;
+  background-size: 100% auto;
+  
+}
+
+.bg-img-saldokeluar {
+  border-radius: 10px;
+  background:url('../media/logos/sb_danakeluar.png') no-repeat center center;
+  background-size: 100% auto;
+}
+.bg-img-saldoakhir {
+  border-radius: 10px;
+  background:url('../media/logos/sb_saldoakhir.png') no-repeat center center;
+  background-size: 100% auto;
+}
+
+.bg-inbox{
+  background:white url('../media/logos/bg_inbox.png') no-repeat top center;
+  background-size:100% 100%;
+}
+
+.text-yellow-tjb{
+  color:#fce274
+}
+
+.text-green-tjb{
+  color:#006662
+}
+
+.text-green-light-tjb{
+  color:#20a2a0
+}
+
+.text-blue-tjb{
+  color:#0aa0b8
+}
+
+.text-app{
+  font-weight: bolder;
+}
+.bg-title-inbox{
+  background: linear-gradient(to right, #CCCCD0, white);  
+
+}

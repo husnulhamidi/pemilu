@@ -1,0 +1,119 @@
+.aside-fixed .aside{
+    background: linear-gradient(180deg, #006485 0%, #0AA0B8 128.08%);
+}
+
+.aside-fixed .aside .brand{
+    background-color: unset;
+}
+
+.aside-fixed .aside .aside-menu{
+    background-color: unset;
+}
+/* 
+.aside-fixed .aside .menu-item:hover {
+    background-color: blue;
+} */
+
+.aside-menu .menu-nav > .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover > .menu-link {
+    background-color: white;
+}
+
+.aside-menu .menu-nav > .menu-item > .menu-heading .menu-text, .aside-menu .menu-nav > .menu-item > .menu-link .menu-text {
+    /* color:  white; */
+    color: #e6e6e6;
+}
+
+.aside-menu .menu-nav > .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover > .menu-heading .menu-text, .aside-menu .menu-nav > .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover > .menu-link .menu-text {
+    color: black;
+}
+
+
+/* active menu */
+/* .aside-menu .menu-nav > .menu-item.menu-item-active > .menu-heading, .aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link {
+    background-color: white;
+} */
+
+.aside-menu .menu-nav > .menu-item.menu-item-open > .menu-link {
+    background-color: white;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-open > .menu-link .menu-text{
+    color: black;
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover > .menu-link {
+    background-color: white;
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-open > .menu-link {
+    background-color: white;
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover > .menu-link .menu-text {
+    color: black;
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-open > .menu-link .menu-text{
+    color: black;
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item > .menu-link .menu-text {
+    /* color: white; */
+    color: #e6e6e6;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link{
+    background-color: white;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link .menu-text {
+    color: black;
+}
+
+/* title */
+.aside-menu .menu-nav > .menu-section .menu-text{
+    /* color: white; */
+    color: #e6e6e6;
+}
+
+/* color icon svg */
+.aside-menu .menu-nav > .menu-item:not(.menu-item-parent):not(.menu-item-open):not(.menu-item-here):not(.menu-item-active):hover > .menu-link .menu-icon.svg-icon svg g [fill] {
+    fill: #0aa0b8;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-open > .menu-link .menu-icon.svg-icon svg g [fill] {
+    fill: #0aa0b8;
+}
+
+/* dasboard menu icon */
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link .menu-icon.svg-icon svg g [fill] {
+    fill: #0aa0b8;
+}
+
+.aside-menu .menu-nav > .menu-item > .menu-link .menu-icon.svg-icon svg g [fill] {
+    fill: white
+}
+
+.aside-menu .label.label-primary {
+    background-color: #fce274;
+    color: black;
+}
+
+.aside-menu .menu-nav > .menu-item {
+    padding-left: 20px;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link{
+    border-radius: 100px 0 0 100px;
+}
+
+.aside-menu .menu-nav > .menu-item > .menu-link {
+    border-radius: 100px 0 0 100px;
+}
+
+.aside-menu .menu-nav > .menu-item > .menu-submenu .menu-subnav > .menu-item > .menu-link{
+    border-radius: 100px 0 0 100px;
+}
+
+
+
