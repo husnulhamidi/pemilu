@@ -19,7 +19,6 @@
                 </div>
             </div>
             <div class="card-body">
-          
                 <!--begin: Datatable-->
                 <table class="table table-bordered" id="tbl_voting">
                     <thead>
